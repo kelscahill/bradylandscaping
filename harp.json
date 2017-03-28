@@ -1,0 +1,9 @@
+{
+    "globals": {
+        "siteName": "Brady Landscaping",
+        "uri": "http://cahillscreative.com/staging/brady/",
+        "imagesUri": "http://cahillscreative.com/staging/brady/images/",
+        "uriStage": "http://cahillscreative.com/staging/brady/",
+        "imagesUriStage": "http://cahillscreative.com/staging/brady/images/"
+    }
+}
