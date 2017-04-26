@@ -1,4 +1,4 @@
-# Archer FED Grunt Workflow
+# Brandy Stone & Landscaping Grunt Workflow
 
 ### Harp / Bootstrap edition
 
@@ -20,7 +20,7 @@ now from the commandline you can do (from your root folder)
 
 to run all the tasks
 
-    grunt start 
+    grunt start
 
 to start harp and watch for changes.  After running the install, 'grunt start' will be run for you. Hit CTRL-C to quit it at any time.
 
