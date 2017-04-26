@@ -6,8 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%- siteName %></title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="<%- uri %>images/favicon.png">
+    <meta name="description" content="Brady Stone &amp; Landscaping has expertly served Northeast Pennsylvania and surrounding areas since 2006 – delivering exceptional custom hardscape and landscape solutions of unequaled quality.">
+    <meta name="keywords" content="landscaping, stone, northeast pennslyvania landscaping, hardscaping, fireplaces, stone work, patios, wayne county">
+
+    <!-- Open Graph data -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Brady Stone &amp; Landscaping" />
+    <meta property="og:description" content="Serving northeast Pennsylvania for all stone and landscaping services. " />
+    <meta property="og:url" content="http://bradystonelandscaping.com/" />
+    <meta property="og:site_name" content="Brady Stone &amp; Landscaping" />
+    <meta property="og:image" content="<%- uri %>images/meta-og.jpg" />
+
     <!-- Bootstrap -->
-    <link href="css/styles.min.css" rel="stylesheet">
+    <link href="<%- uri %>css/styles.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:400,900,700,500' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="<%- uri %>css/jquery.fancybox.css?v=2.1.5" media="screen" />
     <link rel="stylesheet" type="text/css" href="<%- uri %>css/styles.css">
@@ -26,5 +40,14 @@
     <script type="text/javascript" src="<%- uri %>js/jquery.fancybox.js?v=2.1.5"></script>
     <script src="<%- uri %>js/bootstrap.js"></script>
     <script src="<%- uri %>js/all.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-98098014-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>
