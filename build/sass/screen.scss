@@ -733,3 +733,22 @@ section.contact {
 .fancybox-inner {
   overflow: hidden!important;
 }
+
+/* --------------------------
+   Footer
+/* -------------------------- */
+.footer {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  background-color: $dark-gray;
+  @include media($desktop) {
+    display: none;
+  }
+  .row__footer {
+    text-align: center;
+  }
+  .copyright {
+    color: $white;
+    font-size: 12px;
+  }
+}

@@ -6,7 +6,7 @@
 
 First, download and install node.js from http://nodejs.org/
 
-**Important**: Use Node version 10. Sometimes newer versions of node can cause installation issues until packages are updated. You may need to click on the link "Other release."
+**Important**: Use Node version 0.10. Sometimes newer versions of node can cause installation issues until packages are updated. You may need to click on the link "Other release."
 
 ## In terminal:
 

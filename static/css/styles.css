@@ -5393,3 +5393,19 @@ section.contact {
 
 .fancybox-inner {
   overflow: hidden !important; }
+
+/* --------------------------
+   Footer
+/* -------------------------- */
+.footer {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  background-color: #424041; }
+  @media screen and (min-width: 992px) {
+    .footer {
+      display: none; } }
+  .footer .row__footer {
+    text-align: center; }
+  .footer .copyright {
+    color: #ffffff;
+    font-size: 12px; }
